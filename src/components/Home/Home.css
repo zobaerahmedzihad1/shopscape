@@ -1,0 +1,39 @@
+.bg{
+     background: url(../../images/banner_bg.jpg);
+     background-size: cover;
+     padding-top: 2rem;
+}
+.banner-text{
+     margin-top: 6rem;
+}
+.banner-text h5{
+     font-family: 'Poppins', sans-serif;
+     color:#29B965 ;
+     font-weight: 600;
+}
+
+.banner-text h1{
+     font-family: 'Poppins', sans-serif;
+     font-weight: 700;
+     font-size: 4rem;
+     color: #fff;
+}
+.banner-text h1 span{
+     color: #29B965;
+}
+.banner-text p{
+     font-size: 1.1rem;
+     color: #c5bdb7;
+     font-weight: 500;
+}
+.store{
+     margin-top: 5rem;
+}
+.google-play{
+     padding: 0 1rem;
+}
+
+
+.banner-image img{
+     width: 100%;
+}

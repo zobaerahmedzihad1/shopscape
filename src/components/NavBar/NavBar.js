@@ -5,8 +5,8 @@ import { Container, Nav, Navbar } from "react-bootstrap";
 import { NavLink, useLocation } from "react-router-dom";
 
 const NavBar = () => {
-  let location = useLocation();
-  if (location.key !== "default") {
+  // let location = useLocation();
+  // if (location.key !== "default") {
     return (
       <>
         <Navbar bg="dark" variant="dark">
@@ -41,7 +41,7 @@ const NavBar = () => {
         </Navbar>
       </>
     );
-  }
+  // }
 };
 
 export default NavBar;
