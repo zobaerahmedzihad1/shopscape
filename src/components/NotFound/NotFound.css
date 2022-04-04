@@ -1,7 +1,26 @@
 .error{
      text-align: center;
+     display:grid;
+     grid-template-columns: 1fr 1fr;
      /* margin-top: 20%; */
 }
+
+.error-message{
+     margin-top: 20%;
+     padding-right: 10%;
+}
+.error-message h2{
+     font-size: 2rem;
+     color: #2C87F0;
+     font-size: 6rem;
+}
+.error-message h3{
+color: red;
+}
+.error-message p{
+     color: gray;
+}
+
 .backBtn{
      background-color: #29B965;
      padding: .2rem .6rem;
