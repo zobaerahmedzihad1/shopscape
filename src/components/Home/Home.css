@@ -10,6 +10,7 @@
      font-family: 'Poppins', sans-serif;
      color:#29B965 ;
      font-weight: 600;
+     position: relative;
 }
 
 .banner-text h1{
@@ -31,9 +32,41 @@
 }
 .google-play{
      padding: 0 1rem;
+     cursor: pointer;
+}
+.app-store{
+     cursor: pointer;
 }
 
 
 .banner-image img{
      width: 100%;
+}
+
+
+.demo{
+    position: relative;
+}
+.line:after{
+     content: '';
+     background-color: #29B965;
+     position: absolute;
+     height: 3px;
+     width: 55%;
+     left: 170px;
+     bottom: 0px;
+}
+
+.Second-line{
+     position: relative;
+}
+.Second-line::after{
+     content: '';
+     background-color: #29B965;
+     position: absolute;
+     height: 3px;
+     width: 100%;
+     left: 0px;
+     bottom: -30px;
+     
 }

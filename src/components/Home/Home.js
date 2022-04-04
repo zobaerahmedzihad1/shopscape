@@ -4,6 +4,7 @@ import "./Home.css";
 import bannerImage from "../../images/phonewatch.png";
 import googlePlay from "../../images/google_play.png";
 import appStore from "../../images/app_store.png";
+import { Link } from "react-router-dom";
 
 const Home = () => {
   return (
@@ -12,11 +13,11 @@ const Home = () => {
         <Row>
           <Col md={7}>
             <div className="banner-text">
-              <h5>APP SHOWCASE</h5>
+              <h5 className="line">APP SHOWCASE</h5>
               <h1>
                 Made with Style <br /> & <span>Commitment</span>
               </h1>
-              <p>
+              <p className="Second-line">
                 Phosfluorescently engage worldwide methodologies with
                 web-enabled technology. Interactively coordinate proactive
                 e-commerce via process-centric “outside the box“ thinking.
@@ -24,8 +25,12 @@ const Home = () => {
                 potentialities.
               </p>
               <div className="store">
-                <img className="google-play" src={googlePlay} alt="" />
-                <img className="app-store" src={appStore} alt="" />
+                <a target="blank" href="https://play.google.com/">
+                  <img className="google-play" src={googlePlay} alt="" />
+                </a>
+                <a target="blank" href="https://trello.com/">
+                  <img className="app-store" src={appStore} alt="" />
+                </a>
               </div>
             </div>
           </Col>
